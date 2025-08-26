@@ -4,3 +4,6 @@
 
 ## 📅 Commit Calendar
 
+- **Half-year commit calendar**  
+![Half year](./metrics.plugin.isocalendar.svg)
+
