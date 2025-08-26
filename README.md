@@ -1,6 +1,5 @@
-# 我的 GitHub Profile
+# Hey 👋, Glad to see you here! Check out this repository to learn more about me 🤓
 
-這裡是自動生成的 GitHub Metrics ✨
 
 ## 📅 Commit Calendar
 
