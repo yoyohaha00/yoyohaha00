@@ -1,10 +1,8 @@
 name: Metrics
 
 on:
-  # 每天自動更新一次
   schedule: 
     - cron: "0 0 * * *"
-  # 手動觸發
   workflow_dispatch:
 
 jobs:
@@ -14,7 +12,8 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}         # classic PAT
+          committer_token: ${{ secrets.METRICS_TOKEN }}  # 用同一個 PAT commit
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
